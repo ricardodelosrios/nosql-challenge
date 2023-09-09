@@ -8,7 +8,7 @@ The UK Food Standards Agency assesses various establishments across the United K
 
  * It will find **2 Files** in this project:
   
-    * [NoSQL_setup_starter.ipynb](https://github.com/ricardodelosrios/nosql-challenge/blob/main/NoSQL_setup_starter.ipynb). In this file, you will find the code to set up the project.
+    * [NoSQL_setup_starter.ipynb](https://github.com/ricardodelosrios/nosql-challenge/blob/main/NoSQL_setup_starter.ipynb). In this file, you will find the code to set up and update the `uk_food` database.
     * [NoSQL_analysis_starter.ipynb](https://github.com/ricardodelosrios/nosql-challenge/blob/main/NoSQL_analysis_starter.ipynb). You will find the code to analyze, which will help you find the places you want to visit and avoid.
 
 * It is going to find a **folder** in this project:
@@ -33,3 +33,10 @@ To understand it, below is the breakdown of the command:
 * `--drop`:This option will avoid that if the "establishments" collection already exists in the database, it is removed before importing or creating it. This ensures that the old data is replaced by the new data from the JSON file.
 * `--jsonArray`: This option tells MongoImport that the input file contains JSON documents (rows) instead of a single JSON document (row).
 * `establishments.json`: This is the name of the Json file to import.
+
+## References
+
+[UK Food Standards Agency](https://www.food.gov.uk/) (2022). UK food hygiene rating data API. https://ratings.food.gov.uk/open-data/en-GBLinks to an external site.. Contains public sector information licensed under the Open Government Licence v3.0Links to an external site.
+Accessed Sept 9, 2022 and Sept 12, 2022 with the establishment settings as follows: longitude=51.5072, latitude=-0.1276, maxdistancelimit=4567, pagesize=10000, sortoptionkey=distance, pagenumber=(1,2,3,4,5,6,7,8).
+
+
