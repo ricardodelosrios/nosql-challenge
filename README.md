@@ -1,7 +1,22 @@
 # nosql-challenge
 
+## Introduction
 
-### Import
+The UK Food Standards Agency assesses various establishments across the United Kingdom and assigns them food hygiene ratings. They have been commissioned by the editorial team of the renowned food magazine, Eat Safe, Love, to analyze the ratings data. This analysis will assist the magazine's journalists and food critics in determining the focus areas for their future articles."
+
+## Folders and files
+
+ * It will find **2 Files** in this project:
+  
+    * [NoSQL_setup_starter.ipynb](https://github.com/ricardodelosrios/nosql-challenge/blob/main/NoSQL_setup_starter.ipynb). In this file, you will find the code to set up the project.
+    * [NoSQL_analysis_starter.ipynb](https://github.com/ricardodelosrios/nosql-challenge/blob/main/NoSQL_analysis_starter.ipynb). You will find the code to analyze, which will help you find the places you want to visit and avoid.
+
+* It is going to find a **folder** in this project:
+   * The folder called `Resources` will find 1 json file. Listed below are the names of the files you will find:
+
+      * [establishments.json](https://github.com/ricardodelosrios/nosql-challenge/tree/main/Resources)
+    
+## Import
 
 The following command is used to import the JSON file into the MongoDB database.
 
